@@ -1,0 +1,1124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-18T09:29:54.252Z",
+        "before": [
+          {
+            "result": {
+              "duration": 39052281000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Success register new member",
+        "description": "",
+        "id": "register-new-member-in-melaka;success-register-new-member",
+        "after": [
+          {
+            "result": {
+              "duration": 90147000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11033246000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2194100000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2088865000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input phone number \"87880084500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"87880084500\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2079507000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input business name \"Kobim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kobim\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_business_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056789000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user choose business type",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_choose_business_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2078658000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input email \"fanybroto@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fanybroto@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075243000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input password \"qatesting01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qatesting01\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2089144000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input password confirmation \"qatesting01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qatesting01\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_password_confirmation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058561000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click tnc checkbox",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_tnc_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060617000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click button regsiter",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_button_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5329125000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user will get information about activation account \"Aktivasi Akun\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aktivasi Akun\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_will_get_information_about_activation_account(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@successRegisterNewMember"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:31:08.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 101613116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Display error message under the field",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-error-message-under-the-field",
+        "after": [
+          {
+            "result": {
+              "duration": 95431000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2887213000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2064360000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user on register page user click field name without input the name",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_click_field_name_without_input_the_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2053021000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click field phone number without input number",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_phone_number_without_input_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052533000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click field business name without input business name",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_business_name_without_input_business_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2043359000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click field email without input email",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_email_without_input_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053007000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click field password without input password",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_password_without_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054740000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click field confirm password without input confirm password",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_confirm_password_without_input_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2050332000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user click tnc checkbox",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_tnc_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4063404000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "display error message under field name \"Wajib diisi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi.\"",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4056091000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "display error message under field phone number \"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_phone_number(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4045733000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "display error message under field business name \"Wajib diisi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi.\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_business_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4046290000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "display error message under field email \"Wajib diisi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_email(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4059426000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "display error message under field password \"Wajib diisi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi.\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4059219000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "display error message under field confirm password \"Wajib diisi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi.\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_confirm_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayFieldErrorMessage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:33:31.855Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7395339000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Display error message phone number field less than 10 characters",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-error-message-phone-number-field-less-than-10-characters",
+        "after": [
+          {
+            "result": {
+              "duration": 78880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2484753000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2141065000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2054708000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user input phone number \"878800845\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"878800845\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048831000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user click field business name without input business name",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_business_name_without_input_business_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4062824000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "display error message under field phone number \"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_phone_number(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayPhoneNumberErrorMessageLess"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:33:52.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8240241000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Display error message phone number field more than 12 characters",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-error-message-phone-number-field-more-than-12-characters",
+        "after": [
+          {
+            "result": {
+              "duration": 88009000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1591936000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2142445000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071854000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user input phone number \"87880084500123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"87880084500123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054182000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user click field business name without input business name",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_business_name_without_input_business_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4045053000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "display error message under field phone number \"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wajib diisi. Nomor telepon tidak boleh kurang dari 10 atau lebih dari 12 karakter.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_phone_number(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayPhoneNumberErrorMessageMore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:34:12.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10335595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Display error message password field less than 8 characters",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-error-message-password-field-less-than-8-characters",
+        "after": [
+          {
+            "result": {
+              "duration": 79737000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1967784000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2142674000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2062607000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user input password \"test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052518000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user click field confirm password without input confirm password",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_confirm_password_without_input_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4061263000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "display error message under field password \"Min. 8 karakter, harus kombinasi dari huruf dan angka.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Min. 8 karakter, harus kombinasi dari huruf dan angka.\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayPasswordErrorMessageLess"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:34:35.069Z",
+        "before": [
+          {
+            "result": {
+              "duration": 44312347000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Display error message confirmation password field if the input is different with password",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-error-message-confirmation-password-field-if-the-input-is-different-with-password",
+        "after": [
+          {
+            "result": {
+              "duration": 81897000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1664404000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2168128000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2057052000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user input password \"qatesting01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qatesting01\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068622000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user input password confirmation \"testing01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testing01\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_password_confirmation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052183000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user click tnc checkbox",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_tnc_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4047056000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "display error message under field confirm password \"Belum sesuai dengan kata sandi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Belum sesuai dengan kata sandi.\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_confirm_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayConfirmPasswordErrorMessage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T09:35:33.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3711078000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Display an error message if the email format is incorrect.",
+        "description": "",
+        "id": "register-new-member-in-melaka;display-an-error-message-if-the-email-format-is-incorrect.",
+        "after": [
+          {
+            "result": {
+              "duration": 80822000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2494181000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user access melaka register dashboard",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_access_melaka_register_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2117252000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user on register page user input valid name \"Fakhriyani\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fakhriyani\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_on_register_page_user_input_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2061293000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user input email \"fanybroto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fanybroto\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_input_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051407000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user click field password without input password",
+            "match": {
+              "location": "steps.RegisterMelaka.registerMelakaSteps.user_click_field_password_without_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4046545000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "display error message under field email \"Harap isi dengan format yang benar.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harap isi dengan format yang benar.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.RegisterMelaka.registerMelakaSteps.display_error_message_under_field_email(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@registerMelaka"
+          },
+          {
+            "name": "@displayFormatEmailErrorMessage"
+          }
+        ]
+      }
+    ],
+    "name": "Register new member in Melaka",
+    "description": "",
+    "id": "register-new-member-in-melaka",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/registesMelaka.feature",
+    "tags": [
+      {
+        "name": "@main",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@registerMelaka",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]
